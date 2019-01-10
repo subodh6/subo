@@ -1,6 +1,6 @@
 node('master') 
 {
-    stage('ContinuousDownload')
+    stage('ContinuousDownload-ANUSHA')
     {
        git 'https://github.com/subodh6/subo.git'
     }
