@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                git 'https://github.com/selenium-saikrishna/maven.git'
+                git credentialsId: '4ca65b99-6024-4ce7-b782-5cbefdfb397d', url: 'https://github.com/subodh6/subo.git'
             }
         }
         stage('ContBuild')
